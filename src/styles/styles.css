@@ -60,3 +60,30 @@ body {
         display: none;
     }
 }
+
+.container-logo-contacto {
+    display: flex
+;
+    flex-direction: column;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    z-index: 1000;
+}
+
+.container-logo-contacto img {
+    transition: transform 0.3s ease;
+  }
+  
+  .container-logo-contacto img:hover {
+    transform: scale(1.25);
+  }
+
+body img {
+    transition: transform 0.3s ease;
+}
+
+body img:hover{
+    transform: scale(1.25);
+}
