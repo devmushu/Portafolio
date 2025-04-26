@@ -1,7 +1,4 @@
 
-
-
-
 body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
     scroll-behavior: smooth;
@@ -22,7 +19,6 @@ body {
         transform: translateY(10px);
     }
 }
-
 
 .hero-section {
     margin-top: 0px; /* Adjust for fixed navbar */
