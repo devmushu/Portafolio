@@ -26,3 +26,26 @@ const hideLoader = () => {
     app.classList.add("view-app")
 
 }
+
+let currentIndex = 0;
+
+function moveSlide(direction) {
+  const slides = document.querySelectorAll(".carousel-images img");
+  const totalSlides = slides.length;
+
+  currentIndex += direction;
+
+  if (currentIndex < 0) {
+    currentIndex = totalSlides - 1;
+  } else if (currentIndex >= totalSlides) {
+    currentIndex = 0;
+  }
+
+  const newTransformValue = -currentIndex * 100;
+  document.querySelector(".carousel-images").style.transform = `translateX(${newTransformValue}%)`;
+}
+
+// Mover automáticamente cada 3 segundos
+setInterval(() => {
+  moveSlide(1); // Mueve la imagen hacia adelante
+}, 3000); // 3000 milisegundos (3 segundos)
