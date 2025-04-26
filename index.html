@@ -6,29 +6,36 @@
     <link rel="stylesheet" href="/src/styles/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-<!-- Descripción (lo que aparece debajo del título en Google) -->
+    
 <meta name="description" content="Soy desarrollador web con experiencia Python,Django,Sql Flask, JavaScript y más. Creo soluciones modernas, funcionales y centradas en el usuario.">
 
-<!-- Palabras clave (ya no tan usadas, pero puede ayudar ligeramente) -->
 <meta name="keywords" content="desarrollador web, full stack, React, Flask, Python, JavaScript, HTML, CSS, MySQL, PostgreSQL, portfolio, soporte técnico">
 
-<!-- Autor -->
+
 <meta name="author" content="Francisco Cabrera">
-<!-- Robots: indica a Google qué hacer con la página -->
+
 <meta name="robots" content="index, follow">
 
     <title>Portafolios</title>
 </head>
-<body class="bg-white">
+<body>
+<section>
+  <div id="loader" class="loader-animation">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</section>
+  <section id="app" class="ocult-app">
+
     <section class="hero-section relative h-screen">
-        <div class="h-full w-full bg-cover bg-center bg-white text-black">
-            <div  class="absolute inset-0 bg-black/10 flex flex-col items-center justify-center">
-                <!-- foto principal -->
+      <div class="h-full w-full bg-cover bg-center bg-white text-black">
+        <div  class="absolute inset-0 bg-black/10 flex flex-col items-center justify-center">
                  <h1 class="text-4xl font-bold uppercase text-center mb-2">Francisco Cabrera</h1>
                  <h2 class="text-2xl font-semibold mb-2"> WEB DEVELOPER | SUPPORT ANALYST</H2>
                   <br>
-                 <a
-  href="https://docs.google.com/document/d/1m9SZDBFrs8UK5jtomEX3sqNzXFe1Q3ss/export?format=pdf"
+                  <a
+                  href="https://docs.google.com/document/d/1m9SZDBFrs8UK5jtomEX3sqNzXFe1Q3ss/export?format=pdf"
   target="_blank"
   rel="noopener noreferrer"
   download="cv"
@@ -62,7 +69,6 @@
             <div class="max-w-2xl mx-auto text-center mb-12">
                 <div class="h-1 w-16 bg-black mx-auto my-6"></div>
             </div>
-            <!-- BACKEND -->
 <div class="mb-10 text-center">
     <h2 class="text-2xl font-bold mb-4">Backend</h2>
     <div class="flex justify-center gap-6 flex-wrap">
@@ -79,25 +85,24 @@
         alt="flask-logo"
       />
       <img
-        data-aos="flip-right"
-        class="w-20 h-auto"
+      data-aos="flip-right"
+      class="w-20 h-auto"
         src="https://www.svgrepo.com/show/353657/django-icon.svg"
         alt="flask-logo"
       />
     </div>
-   
+    
   </div>
-  
-  <!-- FRONTEND -->
+
   <div class="mb-10 text-center">
     <h2 class="text-2xl font-bold mb-4">Frontend</h2>
     <div class="flex justify-center gap-6 flex-wrap">
       <img
-        data-aos="flip-right"
+      data-aos="flip-right"
         class="w-20 h-auto"
         src="https://icon-library.com/images/html5-icon/html5-icon-13.jpg"
         alt="html-logo"
-      />
+        />
       <img
         data-aos="flip-right"
         class="w-20 h-auto"
@@ -105,27 +110,24 @@
         alt="css-logo"
       />
       <img
-        class="w-20 h-auto"
-        src="https://zaidakary.github.io/Portafolio/imagenes/javascript.jpg"
-        alt="javascript-logo"
+      class="w-20 h-auto"
+      src="https://zaidakary.github.io/Portafolio/imagenes/javascript.jpg"
+      alt="javascript-logo"
       />
     </div>
   </div>
-  
-  <!-- BASES DE DATOS -->
   <div class="mb-10 text-center">
     <h2 class="text-2xl font-bold mb-4">Bases de Datos</h2>
     <div class="flex justify-center gap-6 flex-wrap">
       <img
-        data-aos="flip-right"
-        class="w-20 h-auto"
-        src="https://www.liveagent.com/app/uploads/2020/11/MySQL-Logo.png"
-        alt="mysql-logo"
+      data-aos="flip-right"
+      class="w-20 h-auto"
+      src="https://www.liveagent.com/app/uploads/2020/11/MySQL-Logo.png"
+      alt="mysql-logo"
       />
     </div>
   </div>
   
-  <!-- HERRAMIENTAS -->
   <div class="mb-10 text-center">
     <h2 class="text-2xl font-bold mb-4">Herramientas</h2>
     <div class="flex justify-center gap-6 flex-wrap">
@@ -149,8 +151,6 @@
       />
     </div>
   </div>
-  
-  <!-- SISTEMAS OPERATIVOS -->
   <div class="mb-10 text-center">
     <h2 class="text-2xl font-bold mb-4">Sistemas Operativos</h2>
     <div class="flex justify-center gap-6 flex-wrap">
@@ -164,7 +164,7 @@
         class="w-20 h-auto"
         src="src/img/Windows_logo_-_2012.svg.png"
         alt="windows-logo"
-      />
+        />
     </div>
   </div>
   
@@ -172,19 +172,17 @@
         </div>
 
 
-    </section> 
-    <section class="py-20 bg-black text-white">
+      </section> 
+      <section class="py-20 bg-black text-white">
         <div class="max-w-2xl mx-auto text-center mb-12">
-            <h2 class="text-2xl font-semibold mb-2">Proyectos</h2>
-            <div class="h-1 w-16 bg-white mx-auto my-6"></div>
-            <p class="text-sm mb-8">
-               !!! Actualmente me encuentro preparando la carga de los archivos al portafolio !!!
+          <h2 class="text-2xl font-semibold mb-2">Proyectos</h2>
+          <div class="h-1 w-16 bg-white mx-auto my-6"></div>
+          <p class="text-sm mb-8">
+            !!! Actualmente me encuentro preparando la carga de los archivos al portafolio !!!
             </p>
         </div>
 
     </section> 
-
-    <!-- Newsletter Section -->
     <section class="py-16 bg-black text-white">
         <div class="container mx-auto px-4 text-center">
             <h2 class="text-2xl font-bold mb-2">CONTACTO</h2>
@@ -203,7 +201,6 @@
         <img src="src/img/icons8-whatsapp-48.png" alt="icono Whatsapp">
       </a>
     </div>
-    <!-- Footer -->
     <footer class="py-2 bg-white border-t">
         <div class="container mx-auto px-4">
             <div class="flex justify-center items-center space-x-12 text-xs">
@@ -216,6 +213,7 @@
             </div>
         </div>
     </footer>
-   
+  </section>
+    <script type="module" src="src/js/main.js"></script>
 </body>
 </html>
